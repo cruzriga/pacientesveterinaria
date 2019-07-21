@@ -35,7 +35,7 @@ class NuevaCita extends Component {
             return;
         }
 
-        const nuevaCita = {...this.state.cita, id : uuid()};
+        const nuevaCita = {...this.state.cita, id : uuid()}; // crea un nuevo objecto y agrega la propiedad id
         this.props.crearNuevaCita(nuevaCita);// pasar la  info al state del app
         this.setState({ ...initialState}); //limpiiar formulario 
     }
