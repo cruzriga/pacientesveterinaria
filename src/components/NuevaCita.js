@@ -36,10 +36,9 @@ class NuevaCita extends Component {
         }
 
         const nuevaCita = {...this.state.cita, id : uuid()};
-        this.props.crearNuevaCita(nuevaCita);
-        this.setState({ ...initialState});
+        this.props.crearNuevaCita(nuevaCita);// pasar la  info al state del app
+        this.setState({ ...initialState}); //limpiiar formulario 
     }
-
     render() { 
         const {error} = this.state;
 
