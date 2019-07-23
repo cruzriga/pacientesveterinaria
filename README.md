@@ -2,7 +2,7 @@
 
 Proyecto de practica React, Single Page Application hecha con React guardando en Localstorage para un CRUD de Pacientes para una Veterinaria. 
 ver: 
-[DEMO](https://youthful-cray-89c316.netlify.com)
+[DEMO](https://youthful-cray-89c316.netlify.com) - https://youthful-cray-89c316.netlify.com
 
 
 
